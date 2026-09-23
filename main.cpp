@@ -25,7 +25,7 @@ public:
     void setBlue(int b) {
         blue = b;
     }
-    int getRed() {
+    int getBlue() {
         return blue;
     }
 
@@ -62,6 +62,14 @@ int main() {
     color5.setRed(0);
     color5.setGreen(0);
     color5.setBlue(0);
-
-
+    cout << "   Color 1: " << endl;
+    color1.print();
+    cout << "    Color 2: " << endl;
+    color2.print();
+    cout << "    Color 3: " << endl;
+    color3.print();
+    cout << "    Color 4: " << endl;
+    color4.print();
+    cout << "    Color 5: " << endl;
+    color5.print();
 }
