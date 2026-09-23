@@ -4,12 +4,12 @@
 
 using namespace std;
 
-class color {
+class color { //this is the color class
 private:
     int red;
     int green;
     int blue;
-public:
+public: //these are all the getter and setter functions
     void setRed(int r) {
         red = r;
     }
@@ -29,7 +29,7 @@ public:
         return blue;
     }
 
-    void print() {
+    void print() { //this outputs all our private funcs
         cout << "Red: " << red << endl;
         cout << "Green: " << green << endl;
         cout << "Blue: " << blue << endl;
